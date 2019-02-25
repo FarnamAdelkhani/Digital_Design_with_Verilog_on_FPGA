@@ -1,0 +1,39 @@
+|multi
+dig3[0] <= dig3.DB_MAX_OUTPUT_PORT_TYPE
+dig3[1] <= dig3.DB_MAX_OUTPUT_PORT_TYPE
+dig3[2] <= dig3.DB_MAX_OUTPUT_PORT_TYPE
+dig3[3] <= dig3.DB_MAX_OUTPUT_PORT_TYPE
+dig3[4] <= dig3.DB_MAX_OUTPUT_PORT_TYPE
+dig3[5] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+dig3[6] <= <GND>
+dig2[0] <= <GND>
+dig2[1] <= <GND>
+dig2[2] <= <GND>
+dig2[3] <= <GND>
+dig2[4] <= <GND>
+dig2[5] <= <GND>
+dig2[6] <= <GND>
+dig1[0] <= dig1.DB_MAX_OUTPUT_PORT_TYPE
+dig1[1] <= dig1.DB_MAX_OUTPUT_PORT_TYPE
+dig1[2] <= dig1.DB_MAX_OUTPUT_PORT_TYPE
+dig1[3] <= dig1.DB_MAX_OUTPUT_PORT_TYPE
+dig1[4] <= dig1.DB_MAX_OUTPUT_PORT_TYPE
+dig1[5] <= dig1.DB_MAX_OUTPUT_PORT_TYPE
+dig1[6] <= dig1.DB_MAX_OUTPUT_PORT_TYPE
+sw[0] => Decoder0.IN2
+sw[1] => Decoder0.IN1
+sw[2] => Decoder0.IN0
+btn[0] => Equal0.IN31
+btn[0] => Equal1.IN31
+btn[0] => Equal2.IN0
+btn[1] => Equal0.IN0
+btn[1] => Equal1.IN30
+btn[1] => Equal2.IN31
+btn[2] => Equal0.IN30
+btn[2] => Equal1.IN0
+btn[2] => Equal2.IN30
+btn[3] => Equal0.IN29
+btn[3] => Equal1.IN29
+btn[3] => Equal2.IN29
+
+
