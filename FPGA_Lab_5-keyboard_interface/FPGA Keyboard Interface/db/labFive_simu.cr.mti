@@ -1,0 +1,8 @@
+C:/Users/Farnam/Desktop/Lab5/labFiveHDL.v {1 {vlog -work work -stats=none {C:\Users\Farnam\Desktop\Lab5\labFiveHDL.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module t_keyboard
+
+Top level modules:
+	t_keyboard
+
+} {} {}}

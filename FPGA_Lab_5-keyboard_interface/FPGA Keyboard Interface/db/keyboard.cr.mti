@@ -1,0 +1,11 @@
+C:/Users/Farnam/Desktop/Lab5/receiver.vhd {0 {vcom -work work -2002 -explicit -stats=none {C:\Users\Farnam\Desktop\Lab5\receiver.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+** Error: C:\Users\Farnam\Desktop\Lab5\receiver.vhd(1): near "module": syntax error
+
+} {4.0 5.0} {}} C:/Users/Farnam/Desktop/Lab5/keyboard.vhd {0 {vcom -work work -2002 -explicit -stats=none {C:\Users\Farnam\Desktop\Lab5\keyboard.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+** Error: C:\Users\Farnam\Desktop\Lab5\keyboard.vhd(1): near "module": syntax error
+
+} {4.0 5.0} {}}
