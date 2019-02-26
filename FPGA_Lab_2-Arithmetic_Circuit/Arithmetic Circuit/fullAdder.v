@@ -1,0 +1,9 @@
+module FullAdder(A, B, Cin, Cout, F);
+input A, B, Cin;
+output Cout, F;
+
+assign #10 Sum = A ^ B ^ Cin;
+assign #10 Cout = (A && B) || (A && Cin) || (A && Cin);
+
+endmodule
+

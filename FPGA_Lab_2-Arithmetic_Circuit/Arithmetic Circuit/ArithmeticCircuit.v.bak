@@ -1,0 +1,41 @@
+module fullAdder(A, B, Cin, Cout, F);
+input A, B, Cin;
+output Cout, F;
+
+assign #10 Sum = A ^ B ^ Cin;
+assign #10 Cout = (A && B) || (A && Cin) || (A && Cin);
+
+endmodule
+
+
+
+module arithmetic(A, B, Sel, Cin, Cout, F);
+input [3,0]A, B;
+input Sel, Cin;
+output Cout;
+output [3,0] F;
+
+wire [3: 1] C;
+
+always @(Sel or A or A or A' or 0)
+	case Sel
+		2'b00 : H = A;
+		2'b01 : H = A;
+		2'b02 : H = A';
+		2'b03 : H = 0;
+	endcase
+	
+always @(Sel or B or B')
+	case Sel
+		2'b00 : G = B;
+		2'b01 : G = B';
+		2'b02 : G = B;
+		2'b03 : G = B';
+	endcase
+	
+fullAdder FA0 (H, G, Cin, C[1], F[0]);
+fullAdder FA1 (A[1], b[1], C[1], C[2], F[1]);
+fullAdder FA2 (A[2], b[2], C[2], C[3], F[2]);
+fullAdder FA3 (A[3], b[3], C[3], Cout, F[3]);
+
+endmodule

@@ -1,0 +1,31 @@
+//TestBench for Full Adder (Add_full module)
+//all possible input values in a predefined timeline
+
+//It will be necessary to look at the waveform after
+//simulation to check that output values (Sum, Cout) are correct
+
+//SFSU - School of Engineering - ENGR 378 lab
+//Fall 2013
+
+
+module SimpleTestbench();
+reg X, Y, Cin;
+wire Sum, Cout;
+parameter time_out= 100;
+Add_full Add_0(Cout, Sum, X, Y, Cin);
+
+initial $monitor (X, Y, Cin, Sum, Cout);
+initial #time_out $finish;
+initial
+begin
+#10 Cin=0; X=0; Y=0; 
+#10 Cin=0; X=0; Y=1; 
+#10 Cin=0; X=1; Y=0; 
+#10 Cin=0; X=1; Y=1;
+#10 Cin=1; X=0; Y=0;
+#10 Cin=1; X=0; Y=1;
+#10 Cin=1; X=1; Y=0;
+#10 Cin=1; X=1; Y=1;
+end
+endmodule
+

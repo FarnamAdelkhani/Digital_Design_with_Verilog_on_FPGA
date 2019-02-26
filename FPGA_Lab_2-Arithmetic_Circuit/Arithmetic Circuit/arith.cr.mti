@@ -1,0 +1,8 @@
+{C:/altera/10.0/Arithmetic Circuit/ArithmeticCircuit.v} {1 {vlog -work work -nocovercells {C:/altera/10.0/Arithmetic Circuit/ArithmeticCircuit.v}
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+-- Compiling module ArithmeticCircuit
+
+Top level modules:
+	ArithmeticCircuit
+
+} {} {}}
