@@ -1,0 +1,109 @@
+module half_adder(sum,c,a,b);
+input a, b;
+output sum,c;
+
+
+xor(sum,a,b);
+and(c,a,b);
+
+endmodule
+
+module rca4(sum,cout,a,b,cin,s0,s1);
+  
+input[3:0] a,b;
+input cin,s0,s1;
+output[3:0] sum;
+output cout;
+wire [3:0]wire0,wire1,a_bar,b_bar,buff;
+assign a_bar = ~a;
+assign b_bar = ~b;
+assign buff[0] = 0;
+assign buff[1] = 0;
+assign buff[2] = 0;
+assign buff[3] = 0;
+
+mux_41 M1(wire0, s0, s1, a, a_bar, buff);
+
+mux M2(wire1, s0, b, b_bar);
+
+fourba fa1(s, cout, cin, wire1, wire0);
+endmodule 
+
+module mux(out, s0, input0, input1);
+input [3:0] input0, input1;
+input s0;
+output [3:0] out;
+
+assign out = s0? input1:input0;
+
+endmodule
+
+module lab2tb();
+reg [3:0] a, b;
+reg cin, s0, s1;
+wire [3:0] sum;
+wire cout;
+parameter time_out = 100;
+rca4 Add_0(sum,cout,a,b,cin,s0,s1);
+
+initial $monitor (sum,cout,a,b,cin,s0,s1);
+initial #time_out $finish;
+initial
+begin
+#10 cin=0; s0=0; s1=0; a=4'b1100; b=4'b0000;
+#10 cin=0; s0=0; s1=1; a=4'b0001; b=4'b0000;
+#10 cin=0; s0=1; s1=0; a=4'b0010; b=4'b0001;
+#10 cin=0; s0=1; s1=1; a=4'b1010; b=4'b0101;
+#10 cin=0; s0=0; s1=0; a=4'b0110; b=4'b1001;
+#10 cin=1; s0=0; s1=0; a=4'b0001; b=4'b0000;
+#10 cin=1; s0=0; s1=1; a=4'b0010; b=4'b0001;
+#10 cin=1; s0=1; s1=0; a=4'b1010; b=4'b0101;
+#10 cin=1; s0=1; s1=1; a=4'b0101; b=4'b0101;
+#10 cin=1; s0=0; s1=0; a=4'b0001; b=4'b0000;
+
+end
+endmodule
+
+module full_adder(sum, cout, a, b, cin);
+input a,b;
+input cin;
+output sum, cout;
+wire s1,c1,c2;
+
+half_adder ha1(s1,c1,a,b);
+half_adder ha2(sum,c2,s1,cin);
+or (cout,c1,c2);
+
+endmodule
+
+module fourba(s, cout, cin,a, b);
+input cin;
+input[3:0] a,b;
+output [3:0] s; 
+output cout;
+wire wire2, wire3, wire4;
+
+
+full_adder fa1(s[0], wire2, a[0], b[0], cin);
+
+full_adder fa2(s[1], wire3, a[1], b[1], wire2);
+
+full_adder fa3(s[2], wire4, a[2], b[2], wire3);
+
+full_adder fa4(s[3], cout, a[3], b[3], wire4);
+
+endmodule
+
+module mux_41(out, s0, s1, in0, in1, in2);
+input [3:0] in0, in1, in2;
+input s0, s1;
+output [3:0] out;
+wire [3:0] wire0, wire1;
+
+
+mux M1(wire0, s0, in1, in2);
+
+mux M2(out, s1, wire0, in0);
+
+
+endmodule
