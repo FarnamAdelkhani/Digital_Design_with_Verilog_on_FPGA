@@ -1,0 +1,73 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\10.0\lab2j\db
+vArithmeticCircuit
+Iz@I4]309089[An`=KZhDf1
+VgR`<9ZOX9[cPdT5R[O9LI0
+Z0 dC:\altera\10.0\Arithmetic Circuit
+w1473977772
+8C:/altera/10.0/Arithmetic Circuit/ArithmeticCircuit.v
+FC:/altera/10.0/Arithmetic Circuit/ArithmeticCircuit.v
+L0 1
+Z1 OV;L;6.5e;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+n@arithmetic@circuit
+!s100 ZDQ3[9Dom[RfB85ch04GB1
+!s85 0
+!s101 -O0
+vFullAdder
+I1iZ?8bL^5AHFX`hC:FFZS0
+V@BP9ei7@eZoEhMTDNRCP90
+Z4 dC:\altera\10.0\Arithmetic Circuit
+w1473372971
+8C:/altera/10.0/Arithmetic Circuit/fullAdder.v
+FC:/altera/10.0/Arithmetic Circuit/fullAdder.v
+L0 1
+R1
+r1
+31
+R2
+R3
+n@full@adder
+!s100 V>Ld?<AR?JV3>CT7d1VA52
+!s85 0
+!s101 -O0
+vTestArith
+I:S^fNKgO:HGMTXd5U2jSb3
+VLUFPZkzV;1`YlELSZZjad3
+R4
+w1473378034
+8C:/altera/10.0/Arithmetic Circuit/arithHDL.v
+FC:/altera/10.0/Arithmetic Circuit/arithHDL.v
+L0 2
+R1
+r1
+31
+R2
+R3
+n@test@arith
+!s100 ;7Len4_6HKMk:a9MT[d1:1
+!s85 0
+!s101 -O0
+vtestArith
+!s100 :LVzPd3id7=@0dY308MFB3
+IGFnobERZXW?m1lMm]1NcS1
+V831bA=SEXVB`E5W2j1ZZX1
+R4
+w1473980751
+8C:/altera/10.0/Arithmetic Circuit/TestArith.v
+FC:/altera/10.0/Arithmetic Circuit/TestArith.v
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
+ntest@arith
