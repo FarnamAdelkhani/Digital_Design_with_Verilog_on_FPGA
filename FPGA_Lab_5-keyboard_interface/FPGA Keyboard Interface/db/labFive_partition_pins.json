@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Digi0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Digi3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PS2_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "PS2_DAT",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
