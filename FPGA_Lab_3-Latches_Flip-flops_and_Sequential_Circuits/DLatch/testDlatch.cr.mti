@@ -1,0 +1,15 @@
+C:/altera/10.0/1410/DLatch/testDlatch.v {1 {vlog -work work -nocovercells C:/altera/10.0/1410/DLatch/testDlatch.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+-- Compiling module testDlatch
+
+Top level modules:
+	testDlatch
+
+} {} {}} C:/altera/10.0/1410/DLatch/Dlatch.v {1 {vlog -work work -nocovercells C:/altera/10.0/1410/DLatch/Dlatch.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+-- Compiling module Dlatch
+
+Top level modules:
+	Dlatch
+
+} {} {}}

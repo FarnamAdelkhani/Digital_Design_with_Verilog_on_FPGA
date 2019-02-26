@@ -1,0 +1,25 @@
+module testDlatch();
+  
+  wire Q, Q1;
+  reg G, D;
+  Dlatch d1(G, D, Q, Q1);
+  
+  initial
+  begin
+    #10 G = 0; D = 0; 
+    #10 G = 0; D = 1; 
+    #10 G = 0; D = 0; 
+    #10 G = 0; D = 1; 
+    #10 G = 0; D = 0; 
+    #10 G = 0; D = 1; 
+    
+    #10 G = 1; D = 0; 
+    #10 G = 1; D = 1; 
+    #10 G = 1; D = 0; 
+    #10 G = 1; D = 1; 
+    #10 G = 1; D = 0; 
+    #10 G = 1; D = 1; 
+    #10 G = 1; D = 0; 
+    #10 G = 1; D = 1; 
+end
+endmodule

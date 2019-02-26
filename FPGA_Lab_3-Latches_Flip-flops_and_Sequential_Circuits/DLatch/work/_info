@@ -1,0 +1,39 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\10.0\1410\Lab3
+vDlatch
+IYO>Y62nBUag`<285Bm>lg1
+V3aaY19A[O^O7bElUPe2hL0
+Z0 dC:\altera\10.0\1410\DLatch
+w1474584359
+8C:/altera/10.0/1410/DLatch/Dlatch.v
+FC:/altera/10.0/1410/DLatch/Dlatch.v
+L0 1
+Z1 OV;L;6.5e;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+n@dlatch
+!s100 Xl>H;nXnn1b0cAcDZEz>Z3
+!s85 0
+!s101 -O0
+vtestDlatch
+!s100 =<K^zXTn8T0gbd=38mG5n0
+ImmimT]PVS^czS^@6ZDal52
+V3`BVGbLaBVmZc>Y4a^<^U2
+Z4 dC:\altera\10.0\1410\DLatch
+w1474585321
+8C:/altera/10.0/1410/DLatch/testDlatch.v
+FC:/altera/10.0/1410/DLatch/testDlatch.v
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
+ntest@dlatch
