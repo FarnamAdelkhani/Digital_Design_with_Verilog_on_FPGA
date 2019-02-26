@@ -1,0 +1,138 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\10.0\1410\DLatch
+vadder
+ISNJhPTacn_b5QHJ:n@>762
+VMz>E8H`<>?YRiJ4JOH8J90
+Z0 dC:\altera\10.0\1410\Flipflop
+Z1 w1473965086
+Z2 8C:/altera/10.0/lab2j/lab2j.v
+Z3 FC:/altera/10.0/lab2j/lab2j.v
+L0 12
+Z4 OV;L;6.5e;42
+r1
+31
+Z5 !s102 -nocovercells
+Z6 o-work work -nocovercells -O0
+!s100 L3CzNdJG5:aiALTGk^a`C1
+!s85 0
+!s101 -O0
+vbitCount
+IX0YgN4?czSZRGC2ALH?Qz0
+VF2?8cCjna=EnIHh71cW040
+Z7 dC:\altera\10.0\1410\Flipflop
+w1475189803
+8C:/altera/10.0/1410/Flipflop/bitCount.v
+FC:/altera/10.0/1410/Flipflop/bitCount.v
+L0 1
+R4
+r1
+31
+R5
+R6
+nbit@count
+!s100 1_oJhkhbEioUHL=7X@IFj2
+!s85 0
+!s101 -O0
+vbitTest
+IM_b<Z6>b@b;OT@6m8aUCV0
+VY]DQ9D94L9geb5lO39Ql[0
+R7
+w1475189646
+8C:/altera/10.0/1410/Flipflop/bitTest.v
+FC:/altera/10.0/1410/Flipflop/bitTest.v
+L0 1
+R4
+r1
+31
+R5
+R6
+nbit@test
+!s100 8a9Y=49ImDdZ;F]1zCo6X1
+!s85 0
+!s101 -O0
+vjkFlipFlop
+!s100 d8QUi0dVCIL<GJUg_FHOh0
+I;FVnEV9eM:fAKzm3eM2Ca2
+V@RSY3iWbQ3n:a=VmQCJ<z0
+R7
+w1475187691
+8C:/altera/10.0/1410/Flipflop/jkFlipFlop.v
+FC:/altera/10.0/1410/Flipflop/jkFlipFlop.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s101 -O0
+R5
+R6
+njk@flip@flop
+vlab2j
+ILf3k^AF;`b_Li?TH?GgXh0
+VC3OeIVC9?RYUjaKJ0:_L01
+R7
+R1
+R2
+R3
+L0 1
+R4
+r1
+31
+R5
+R6
+!s100 Pc4e6]iCOdaZEk;ZB<K900
+!s85 0
+!s101 -O0
+vmux4
+I]FhESF<5f0RN2[=9^B3B70
+VQShWXAQAoeg_U6HTY8acQ1
+R7
+R1
+R2
+R3
+L0 23
+R4
+r1
+31
+R5
+R6
+!s100 OJT:aiJRgJ7z6PNADNeY52
+!s85 0
+!s101 -O0
+vTestbench_1
+ID@<GE]HKDo?G?MaI9OlN81
+V9XA@XEaDX=8<>0WPUI>W]3
+R7
+w1473965299
+8C:/altera/10.0/lab2j/lab2jHDL.v
+FC:/altera/10.0/lab2j/lab2jHDL.v
+L0 1
+R4
+r1
+31
+R5
+R6
+n@testbench_1
+!s100 A]lCF4fDe996I>G_KnJg]3
+!s85 0
+!s101 -O0
+vtestJK
+I;?iz^oR?e:S@eD:LJPQ]@2
+V5l?5@E@WzLR_TQ7C3OZUG2
+R7
+w1474587515
+8C:/altera/10.0/1410/Flipflop/testJK.v
+FC:/altera/10.0/1410/Flipflop/testJK.v
+L0 1
+R4
+r1
+31
+R5
+R6
+ntest@j@k
+!s100 31WoBTj282J=ZYe4UL5gX3
+!s85 0
+!s101 -O0

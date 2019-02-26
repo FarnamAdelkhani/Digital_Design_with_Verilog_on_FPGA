@@ -1,0 +1,17 @@
+C:/altera/10.0/lab2j/lab2jHDL.v {1 {vlog -work work -nocovercells C:/altera/10.0/lab2j/lab2jHDL.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+-- Compiling module Testbench_1
+
+Top level modules:
+	Testbench_1
+
+} {} {}} C:/altera/10.0/lab2j/lab2j.v {1 {vlog -work work -nocovercells C:/altera/10.0/lab2j/lab2j.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+-- Compiling module lab2j
+-- Compiling module adder
+-- Compiling module mux4
+
+Top level modules:
+	lab2j
+
+} {} {}}

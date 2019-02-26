@@ -1,0 +1,22 @@
+C:/altera/10.0/1410/Flipflop/bitTest.v {1 {vlog -work work -nocovercells C:/altera/10.0/1410/Flipflop/bitTest.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+-- Compiling module bitTest
+
+Top level modules:
+	bitTest
+
+} {} {}} C:/altera/10.0/1410/Flipflop/bitCount.v {1 {vlog -work work -nocovercells C:/altera/10.0/1410/Flipflop/bitCount.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+-- Compiling module bitCount
+
+Top level modules:
+	bitCount
+
+} {} {}} C:/altera/10.0/1410/Flipflop/jkFlipFlop.v {1 {vlog -work work -nocovercells C:/altera/10.0/1410/Flipflop/jkFlipFlop.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+-- Compiling module jkFlipFlop
+
+Top level modules:
+	jkFlipFlop
+
+} {} {}}

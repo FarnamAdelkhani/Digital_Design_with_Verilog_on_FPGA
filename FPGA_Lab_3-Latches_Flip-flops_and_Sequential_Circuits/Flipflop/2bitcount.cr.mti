@@ -1,0 +1,9 @@
+C:/altera/10.0/1410/Flipflop/2bitCount.v {0 {vlog -work work -nocovercells C:/altera/10.0/1410/Flipflop/2bitCount.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+** Error: C:/altera/10.0/1410/Flipflop/2bitCount.v(1): near "2": syntax error, unexpected "INTEGER NUMBER", expecting "IDENTIFIER" or "TYPE_IDENTIFIER"
+
+} {3.0 4.0} {}} C:/altera/10.0/1410/Flipflop/2bitTest.v {0 {vlog -work work -nocovercells C:/altera/10.0/1410/Flipflop/2bitTest.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+** Error: C:/altera/10.0/1410/Flipflop/2bitTest.v(1): near "2": syntax error, unexpected "INTEGER NUMBER", expecting "IDENTIFIER" or "TYPE_IDENTIFIER"
+
+} {3.0 4.0} {}}
