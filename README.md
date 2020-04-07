@@ -1,4 +1,5 @@
 ### Digital Design with Verilog on an Altera Cyclone FPGA Developer Kit
+Farnam Adelkhani - Course taken 2017
 
 
 CMOS digital circuits and their electrical properties.     
@@ -8,7 +9,7 @@ Algorithmic sequential machine design.
 Design with programmable logic devices.  
 Hardware description and simulation language.  
 
-**Specific goals for the course:**
+**Specific goals for the course:**  
 • Analyze combinational and sequential circuits.  
 • Design combinational and sequential circuits.  
 • Structural, dataflow, and behavioral modeling of digital system.  
